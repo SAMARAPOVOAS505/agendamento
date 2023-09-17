@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <div class="content">
+     <!-- Menu -->
+     <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#agendamento">Agende Horário</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="barbearia" id="inicio">
+        <h2>Barbearia</h2>
+        <h1>Zezinho</h1>
+    </div>
+      
+     <!-- Foto de Apresentação -->
+     <div class="apresentacao">
+        <div class="fotos aparecer">
+        <img src="./asset/img/apresentacao1.avif" alt="Apresentação">
+    </div>
+
+    <!-- Imagens -->
+<!-- Fotos e Textos -->
+<div class="fotos">
+    <div class="foto">
+        <div class="foto-coluna aparecer">
+            <img src="./asset/img/foto1.avif" alt="Foto 1">
+        </div>
+        <div class="texto-coluna">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus orci,
+                 lacinia id imperdiet vitae, pretium quis null. 
+                 
+
+            </p>
+        </div>
+    </div>
+    <div class="foto2">
+        <div class="foto-coluna aparecer">
+            <img src="./asset/img/foto2.avif" alt="Foto 2">
+        </div>
+        <div class="texto-coluna">
+            <p>Cras lobortis neque diam, eget consequat est
+                varius nec. Duis feugiat ac felis id ultricies.
+            </p>
+        </div>
+    </div>
+    <div class="foto">
+        <div class="foto-coluna aparecer">
+            <img src="./asset/img/foto3.avif" alt="Foto 3">
+        </div>
+        <div class="texto-coluna">
+            <p>Cras vel dapibus justo. Pellentesque cursus fringilla lorem, 
+                quis luctus diam ultricies lacinia.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ... (código posterior) ... -->
+
+
+
+
+    <!-- Formulário de Agendamento -->
+    <div class="formulario">
+    <section id="agendamento" id="agendamento">
+        <h2>Agende seu Horário</h2>
+        <form action="agendar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="numero">Número de Contato:</label>
+            <input type="text" id="numero" name="numero" required><br>
+
+            <label for="barbeiro">Escolha o Barbeiro:</label>
+            <select id="barbeiro" name="barbeiro">
+                <option value="barbeiro1">Barbeiro 1</option>
+                <option value="barbeiro2">Barbeiro 2</option>
+                <option value="barbeiro3">Barbeiro 3</option>
+            </select><br>
+
+            <label for="horario">Escolha o Horário:</label>
+            <input type="time" id="horario" name="horario" required><br>
+
+            <label for="data">Escolha a Data:</label>
+            <input type="date" id="data" name="data" required><br>
+            
+
+            <input type="submit" value="Agendar">
+        </form>
+    </section>
+</div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="contato" id="contato">
+             <h3>Contato</h3>
+            <a href="https://api.whatsapp.com/send?phone=SEU_NUMERO_DE_TELEFONE" target="_blank">WhatsApp</a>
+            <a href="https://www.instagram.com/SEU_USUARIO_DO_INSTAGRAM/" target="_blank">Instagram</a>
+            <a href="https://www.google.com/maps?q=SEU_ENDERECO" target="_blank">Localização</a>
+            <p>&copy; 2023 Samara.Povoas</p>
+
+        </div>
+    </footer>
+</div>
+
+    <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/style.js"></script>
+</body>
+</html>
